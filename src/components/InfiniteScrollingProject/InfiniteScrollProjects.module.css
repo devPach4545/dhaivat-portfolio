@@ -25,7 +25,7 @@
 
 .scrollContent {
   display: flex;
-  animation: scrollProjects 50s linear infinite;
+  animation: scrollProjects 30s linear infinite;
 }
 
 /* Animation pauses when hovering over any project */
@@ -81,7 +81,7 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .scrollContent {
-    animation-duration: 45s; /* Slightly faster on mobile */
+    animation-duration: 10s; /* Slightly faster on mobile */
   }
   
   .projectWrapper {

@@ -47,24 +47,25 @@ export const Hero = () => {
     
     return () => clearInterval(typingInterval);
   }, [isDeleting, textIndex]);
-
+  
   return (
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          <span className={styles.typewriterText}>{displayText}</span>
-          <span className={styles.cursor}></span>
+          <div className={styles.textContainer}>
+            <span className={styles.typewriterText}>{displayText}</span>
+            <span className={styles.cursor}></span>
+          </div>
         </h1>
         <p className={styles.description}>
-        I am a fourth year Computer Science student at UCSD. I am interested in Software Engineering, Machine Learning, and Data Science.
-
+          I am a fourth year Computer Science student at UCSD. I am interested in Software Engineering, Machine Learning, and Data Science.
         </p>
         <a href="mailto:dhaivatpachchigar@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
       <img
-        src="/assets/hero/mypic.png"
+        src={getImageUrl("hero/mypic.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />

@@ -12,16 +12,16 @@ export const Navbar = () => {
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img
-          className={styles.menuBtn}
-          src={
-            menuOpen
-              ? "/assets/nav/closeIcon.png"
-              : "/assets/nav/menuIcon.png"
-          }
-          alt="menu-button"
-          onClick={() => setMenuOpen(!menuOpen)}
-        />
+      <img
+        className={styles.menuBtn}
+        src={
+          menuOpen
+            ? getImageUrl("nav/closeIcon.png")
+            : getImageUrl("nav/menuIcon.png")
+        }
+        alt="menu-button"
+        onClick={() => setMenuOpen(!menuOpen)}
+      />
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
