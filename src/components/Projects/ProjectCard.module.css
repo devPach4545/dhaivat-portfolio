@@ -7,7 +7,8 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  width: 345px; /* Changed from max-width to fixed width */
+  height: 500px; /* Fixed height */
 }
 
 .image {
@@ -23,6 +24,9 @@
   margin-top: 6px;
   font-size: 25px;
   font-weight: 400;
+  overflow-y: auto; /* Makes content scrollable if it overflows */
+  flex-grow: 1; /* Takes up available space */
+  max-height: 150px; /* Limits description height */
 }
 
 .skills {
@@ -33,6 +37,8 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  max-height: 150px; /* Limits skills section height */
+  overflow-y: auto; /* Makes skills scrollable if needed */
 }
 
 .skill {
@@ -45,7 +51,7 @@
 
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: auto; /* Pushes links to the bottom */
   display: flex;
   justify-content: space-around;
 }

@@ -1,25 +1,49 @@
 [
   {
-    "title": "Project A",
+    "title": "E-commerce Bookstore with Microservices",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "Developed a full-stack e-commerce bookstore using microservices, Spring Boot, RabbitMQ, and OAuth2 security.",
+    "skills": ["Spring Boot", "RabbitMQ", "OAuth2", "Keycloak", "Docker", "JUnit 5"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
+    "title": "IoT Wardrobe Management System",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "description": "Designed an IoT wardrobe system with FastAPI, MySQL, and ESP32, featuring AI-based clothing recommendations.",
+    "skills": ["FastAPI", "MySQL", "ESP32", "Redis", "AI", "Python"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
+    "title": "Gun Detection System",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "description": "Built a gun detection system using YOLOv10 and Flask, achieving 92% accuracy with AWS deployment.",
+    "skills": ["YOLOv10", "Flask", "Docker", "AWS", "GitHub Actions"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Car Accident Injury Predictor",
+    "imageSrc": "projects/project.png",
+    "description": "Led a team to develop ML models predicting injury likelihood in car accidents using SVM and oversampling.",
+    "skills": ["Python", "NumPy", "Pandas", "Seaborn", "SVM", "Logistic Regression"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Journal App for Software Developers",
+    "imageSrc": "projects/project.png",
+    "description": "Built a cross-platform Electron.js journal app with goal tracking, markdown notes, and a calendar.",
+    "skills": ["Electron.js", "HTML", "CSS", "JavaScript", "Puppeteer"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "AI Chatbot for Stock Market Data",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a real-time AI chatbot for stock market insights using Next.js, Tailwind, and Spring Boot.",
+    "skills": ["Next.js", "Tailwind CSS", "Spring Boot", "Java", "Alpha Vantage API"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }

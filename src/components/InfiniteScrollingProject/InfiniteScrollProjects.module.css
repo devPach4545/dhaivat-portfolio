@@ -1,0 +1,90 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  width: 100%;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.scrollContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 37px;
+}
+
+.scrollContent {
+  display: flex;
+  animation: scrollProjects 50s linear infinite;
+}
+
+/* Animation pauses when hovering over any project */
+.scrollContent:hover {
+  animation-play-state: paused;
+}
+
+.projectWrapper {
+  flex-shrink: 0;
+  padding: 0 25px;
+  transition: transform 0.3s ease;
+  opacity: 0.9;
+}
+
+/* Simple scale effect on hover without 3D */
+.projectWrapper:hover {
+  transform: scale(1.05);
+  opacity: 1;
+  z-index: 5;
+}
+
+@keyframes scrollProjects {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Pseudo-elements to create the illusion of depth at the edges */
+.scrollContainer::before,
+.scrollContainer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 15%;
+  height: 100%;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.scrollContainer::before {
+  left: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0.8), transparent);
+}
+
+.scrollContainer::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(0,0,0,0.8), transparent);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .scrollContent {
+    animation-duration: 45s; /* Slightly faster on mobile */
+  }
+  
+  .projectWrapper {
+    padding: 0 15px;
+  }
+}
