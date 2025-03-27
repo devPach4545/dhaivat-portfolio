@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import styles from "./Contact.module.css";
 
-
+import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
 const formRef = useRef();
@@ -105,13 +105,13 @@ required
 
 <li className={styles.link}>
 <img
-src="/assets/contact/linkedinIcon.png"
+src={getImageUrl("contact/linkedinIcon.png")}
 alt="LinkedIn icon"
 />
 <a href="https://www.linkedin.com/in/dhaivat-pachchigar-b58493242">linkedin.com/Dhaivat</a>
 </li>
 <li className={styles.link}>
-<img src="/assets/contact/githubIcon.png" alt="Github icon" />
+<img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
 <a href="https://github.com/devPach4545">github.com/DevPach</a>
 </li>
 </ul>

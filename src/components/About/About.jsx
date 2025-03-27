@@ -19,7 +19,7 @@ export const About = () => {
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.content}>
         <img
-          src={isHovering ? "/assets/about/mypic_coolimg.png" : "/assets/about/mypic_med.png"}
+          src={isHovering ? getImageUrl("about/mypic_coolimg.png") : getImageUrl("about/mypic_med.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
           onMouseEnter={handleMouseEnter}

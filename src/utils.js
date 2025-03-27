@@ -1,3 +1,6 @@
 export const getImageUrl = (path) => {
-  return new URL(`/assets/${path}`, import.meta.url).href;
+  // Get the base URL dynamically
+  
+  const baseUrl = import.meta.env.BASE_URL || '/';
+  return `${baseUrl}assets/${path}`;
 };
