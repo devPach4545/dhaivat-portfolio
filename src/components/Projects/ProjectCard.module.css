@@ -8,7 +8,8 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   width: 345px;
-  height: 500px;
+  min-height: 500px;
+  max-height: 500px;
 }
 
 .image {
@@ -67,12 +68,23 @@
 }
 
 @media screen and (max-width: 830px) {
+  .container {
+    width: 320px;
+    min-height: 450px;
+    max-height: 450px;
+  }
+  
   .title {
     font-size: 22px;
   }
   
   .description {
     font-size: 20px;
+    max-height: 120px;
+  }
+  
+  .skills {
+    max-height: 120px;
   }
   
   .skill {
@@ -88,11 +100,9 @@
 @media screen and (max-width: 480px) {
   .container {
     width: 280px;
-    height: auto;
-    min-height: 350px;
-    max-height: none;
+    min-height: 400px;
+    max-height: 400px;
     padding: 15px 20px;
-    margin-bottom: 15px;
   }
   
   .title {
@@ -101,15 +111,13 @@
   
   .description {
     font-size: 16px;
-    max-height: none;
-    overflow-y: visible;
+    max-height: 100px;
   }
   
   .skills {
     gap: 4px;
-    max-height: none;
-    overflow-y: visible;
-    margin-bottom: 15px;
+    max-height: 100px;
+    margin-bottom: 10px;
   }
   
   .skill {
