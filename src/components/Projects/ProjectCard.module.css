@@ -8,12 +8,30 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   width: 345px;
-  min-height: 500px;
-  max-height: 500px;
+  height: 400px; /* Fixed height for all cards */
 }
 
-.image {
-  margin-bottom: 26px;
+.scrollableContent {
+  flex: 1;
+  overflow-y: auto;
+  margin: 10px 0;
+  /* Add scrollbar styling */
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) transparent;
+}
+
+/* For Webkit browsers like Chrome/Safari */
+.scrollableContent::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollableContent::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollableContent::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border-radius: 20px;
 }
 
 .title {
@@ -25,9 +43,6 @@
   margin-top: 6px;
   font-size: 25px;
   font-weight: 400;
-  overflow-y: auto;
-  flex-grow: 1;
-  max-height: 150px;
 }
 
 .skills {
@@ -38,8 +53,7 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
-  max-height: 150px;
-  overflow-y: auto;
+  padding-left: 0;
 }
 
 .skill {
@@ -67,11 +81,12 @@
   padding: 1px 22px;
 }
 
+/* Media queries for responsive font sizes */
 @media screen and (max-width: 830px) {
   .container {
     width: 320px;
-    min-height: 450px;
-    max-height: 450px;
+    height: 380px;
+    padding: 16px 20px;
   }
   
   .title {
@@ -80,11 +95,6 @@
   
   .description {
     font-size: 20px;
-    max-height: 120px;
-  }
-  
-  .skills {
-    max-height: 120px;
   }
   
   .skill {
@@ -99,34 +109,26 @@
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 280px;
-    min-height: 400px;
-    max-height: 400px;
-    padding: 15px 20px;
+    width: 300px;
+    height: 350px;
+    padding: 14px 18px;
   }
   
   .title {
-    font-size: 18px;
+    font-size: 20px;
   }
   
   .description {
     font-size: 16px;
-    max-height: 100px;
-  }
-  
-  .skills {
-    gap: 4px;
-    max-height: 100px;
-    margin-bottom: 10px;
   }
   
   .skill {
-    font-size: 14px;
+    font-size: 16px;
     padding: 2px 14px;
   }
   
   .link {
-    font-size: 18px;
-    padding: 1px 16px;
+    font-size: 20px;
+    padding: 1px 18px;
   }
 }

@@ -4,10 +4,10 @@ import { Contact } from "./components/Contact/Contact";
 import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
-import { InfiniteScrollProjects } from "./components/InfiniteScrollingProject/InfiniteScrollProjects";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
+import { Projects } from "./components/Projects/Projects";
 
 function App() {
   const particlesInit = useCallback(async (engine) => {
@@ -92,7 +92,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <InfiniteScrollProjects />
+      <Projects />
       <Contact />
     </div>
   );

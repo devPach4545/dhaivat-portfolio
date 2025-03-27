@@ -3,10 +3,8 @@
 .container {
   margin-top: 76px;
   color: var(--color-text);
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 16px;
-  max-width: 1200px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .title {
@@ -14,35 +12,15 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  margin-bottom: 40px;
 }
 
 .projects {
+  margin-top: 37px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 20px;
+  align-items: center;
   justify-content: center;
-}
-
-@media screen and (max-width: 830px) {
-  .title {
-    font-size: 28px;
-    margin-bottom: 30px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .container {
-    margin-top: 50px;
-  }
-  
-  .title {
-    font-size: 24px;
-    margin-bottom: 24px;
-  }
-  
-  .projects {
-    gap: 15px;
-  }
+  gap: 15px;
+  width: 100%;
 }
