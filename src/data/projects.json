@@ -13,7 +13,7 @@
     "description": "Designed an IoT wardrobe system with FastAPI, MySQL, and ESP32, featuring AI-based clothing recommendations.",
     "skills": ["FastAPI", "MySQL", "ESP32", "Redis", "AI", "Python"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/UCSD-ECE140/tech-assignment-final-project-coder-zero"
   },
   {
     "title": "Gun Detection System",
@@ -21,7 +21,7 @@
     "description": "Built a gun detection system using YOLOv10 and Flask, achieving 92% accuracy with AWS deployment.",
     "skills": ["YOLOv10", "Flask", "Docker", "AWS", "GitHub Actions"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/devPach4545/Gun-detection"
   },
   {
     "title": "Car Accident Injury Predictor",
@@ -29,7 +29,7 @@
     "description": "Led a team to develop ML models predicting injury likelihood in car accidents using SVM and oversampling.",
     "skills": ["Python", "NumPy", "Pandas", "Seaborn", "SVM", "Logistic Regression"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/devPach4545/CSE_151A"
   },
   {
     "title": "Journal App for Software Developers",
@@ -37,7 +37,7 @@
     "description": "Built a cross-platform Electron.js journal app with goal tracking, markdown notes, and a calendar.",
     "skills": ["Electron.js", "HTML", "CSS", "JavaScript", "Puppeteer"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/cse110-sp24-group2/cse110-sp24-group2"
   },
   {
     "title": "AI Chatbot for Stock Market Data",
@@ -45,6 +45,6 @@
     "description": "Developed a real-time AI chatbot for stock market insights using Next.js, Tailwind, and Spring Boot.",
     "skills": ["Next.js", "Tailwind CSS", "Spring Boot", "Java", "Alpha Vantage API"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/devPach4545/Devstobot"
   }
 ]

@@ -151,3 +151,96 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 830px) {
+  .container {
+    margin-top: 80px;
+    padding: 40px 8%;
+  }
+  
+  .text h2 {
+    font-size: 48px;
+  }
+  
+  .text p {
+    font-size: 24px;
+  }
+  
+  .link a {
+    font-size: 24px;
+  }
+  
+  .label {
+    font-size: 16px;
+  }
+  
+  .input, .textarea {
+    font-size: 14px;
+  }
+  
+  .submitButton {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 60px;
+    padding: 30px 5%;
+    gap: 30px;
+  }
+  
+  .text h2 {
+    font-size: 32px;
+    letter-spacing: 2px;
+  }
+  
+  .text p {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  
+  .links {
+    gap: 16px;
+  }
+  
+  .link {
+    gap: 15px;
+  }
+  
+  .link img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .link a {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .formField {
+    gap: 3px;
+  }
+  
+  .label {
+    font-size: 14px;
+  }
+  
+  .input, .textarea {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .textarea {
+    min-height: 100px;
+  }
+  
+  .submitButton {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+  
+  .successMessage, .errorMessage {
+    font-size: 14px;
+  }
+}

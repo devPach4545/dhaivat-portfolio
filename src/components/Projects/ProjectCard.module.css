@@ -65,3 +65,54 @@
   background: var(--color-primary);
   padding: 1px 22px;
 }
+
+@media screen and (max-width: 830px) {
+  .title {
+    font-size: 22px;
+  }
+  
+  .description {
+    font-size: 20px;
+  }
+  
+  .skill {
+    font-size: 20px;
+    padding: 2px 18px;
+  }
+  
+  .link {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 300px;
+    height: 400px;
+    padding: 15px 20px;
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+  
+  .description {
+    font-size: 16px;
+    max-height: 120px;
+  }
+  
+  .skills {
+    gap: 4px;
+    max-height: 120px;
+  }
+  
+  .skill {
+    font-size: 14px;
+    padding: 2px 14px;
+  }
+  
+  .link {
+    font-size: 18px;
+    padding: 1px 16px;
+  }
+}

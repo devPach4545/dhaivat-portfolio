@@ -114,6 +114,8 @@
   filter: blur(100px);
   z-index: 0;
 }
+
+/* Medium screens */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
@@ -126,8 +128,54 @@
   }
   .title {
     font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
   }
   .cursor {
     height: 48px;
+  }
+  .description {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .contactBtn {
+    font-size: 22px;
+    padding: 12px 20px;
+  }
+  .heroImg {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Small screens/phones */
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 30px;
+  }
+  .textContainer {
+    height: 36px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .title {
+    font-size: 32px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .cursor {
+    height: 32px;
+  }
+  .description {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .contactBtn {
+    font-size: 18px;
+    padding: 10px 16px;
+  }
+  .heroImg {
+    width: 80%;
   }
 }

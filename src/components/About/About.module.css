@@ -89,4 +89,43 @@
     padding-left: 0;
     padding-right: 0;
   }
+  
+  .title {
+    font-size: 28px;
+  }
+  
+  .aboutItem h3 {
+    font-size: 22px;
+  }
+  
+  .aboutItem p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 80px;
+    padding: 40px 0;
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+  
+  .aboutItems {
+    gap: 30px;
+  }
+  
+  .aboutItem {
+    padding: 15px 0;
+  }
+  
+  .aboutItem h3 {
+    font-size: 18px;
+  }
+  
+  .aboutItem p {
+    font-size: 16px;
+  }
 }

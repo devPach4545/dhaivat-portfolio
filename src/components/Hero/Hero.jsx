@@ -7,8 +7,7 @@ export const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [textIndex, setTextIndex] = useState(0);
   const texts = ["Hi, I'm Dhaivat", "I go by Dev"];
-  const imgUrl = getImageUrl("hero/mypic.png");
-  console.log("Image URL:", imgUrl);
+  
   useEffect(() => {
     let currentIndex = 0;
     let typingSpeed = isDeleting ? 75 : 150; // Faster when deleting
