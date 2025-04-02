@@ -30,7 +30,7 @@ export const About = () => {
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <div className={styles.aboutItemText}>
-              <h3>Undergrad ML research assitant</h3>
+              <h3>Undergrad ML research assistant</h3>
               <p>
               I worked on making Generative Adversarial Networks and Vision Transformers. In simpler words, I worked on a project to avoid expensive biopsies for identifying liver diseases.              </p>
             </div>
