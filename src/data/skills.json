@@ -1,30 +1,170 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "/assets/skills/html.png"
+    "title": "Java",
+    "imageSrc": "skills/java.png"
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "Python",
+    "imageSrc": "skills/python.png"
   },
   {
-    "title": "React",
+    "title": "C++",
+    "imageSrc": "skills/cpp.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "HTML/CSS",
+    "imageSrc": "skills/html-css.png"
+  },
+  {
+    "title": "YAML",
+    "imageSrc": "skills/yaml.png"
+  },
+  {
+    "title": "Spring Boot",
+    "imageSrc": "skills/spring-boot.png"
+  },
+  {
+    "title": "React.js",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
+    "title": "Node.js",
     "imageSrc": "skills/node.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "FastAPI",
+    "imageSrc": "skills/fastapi.png"
+  },
+  {
+    "title": "TensorFlow",
+    "imageSrc": "skills/tensorflow.png"
+  },
+  {
+    "title": "Electron.js",
+    "imageSrc": "skills/electron.png"
+  },
+  {
+    "title": "Puppeteer",
+    "imageSrc": "skills/puppeteer.png"
+  },
+  {
+    "title": "JUnit",
+    "imageSrc": "skills/junit.png"
+  },
+  {
+    "title": "Pytest",
+    "imageSrc": "skills/pytest.png"
+  },
+  {
+    "title": "JWT",
+    "imageSrc": "skills/jwt.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "Redis",
+    "imageSrc": "skills/redis.png"
   },
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
   },
   {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "title": "Amazon S3",
+    "imageSrc": "skills/aws-s3.png"
+  },
+  {
+    "title": "DynamoDB",
+    "imageSrc": "skills/dynamodb.png"
+  },
+  {
+    "title": "Elasticsearch",
+    "imageSrc": "skills/elasticsearch.png"
+  },
+  {
+    "title": "MinIO",
+    "imageSrc": "skills/minio.png"
+  },
+  {
+    "title": "RabbitMQ",
+    "imageSrc": "skills/rabbitmq.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
+  },
+  {
+    "title": "Kubernetes",
+    "imageSrc": "skills/kubernetes.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "skills/docker.png"
+  },
+  {
+    "title": "Jenkins",
+    "imageSrc": "skills/jenkins.png"
+  },
+  {
+    "title": "GitHub Actions",
+    "imageSrc": "skills/github-actions.png"
+  },
+  {
+    "title": "CI/CD",
+    "imageSrc": "skills/cicd.png"
+  },
+  {
+    "title": "IaC",
+    "imageSrc": "skills/iac.png"
+  },
+  {
+    "title": "Prowler",
+    "imageSrc": "skills/prowler.png"
+  },
+  {
+    "title": "Nexus",
+    "imageSrc": "skills/nexus.png"
+  },
+  {
+    "title": "Shell Scripting",
+    "imageSrc": "skills/shell.png"
+  },
+  {
+    "title": "Linux",
+    "imageSrc": "skills/linux.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "RESTful APIs",
+    "imageSrc": "skills/rest-api.png"
+  },
+  {
+    "title": "Serverless",
+    "imageSrc": "skills/serverless.png"
+  },
+  {
+    "title": "Microservices",
+    "imageSrc": "skills/microservices.png"
+  },
+  {
+    "title": "Agile",
+    "imageSrc": "skills/agile.png"
+  },
+  {
+    "title": "Event-Driven",
+    "imageSrc": "skills/event-driven.png"
   }
 ]

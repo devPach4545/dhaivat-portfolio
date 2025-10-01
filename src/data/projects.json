@@ -1,12 +1,5 @@
 [
-  {
-    "title": "E-commerce Bookstore with Microservices",
-    "imageSrc": "projects/project.png",
-    "description": "Developed a full-stack e-commerce bookstore using microservices, Spring Boot, RabbitMQ, and OAuth2 security.",
-    "skills": ["Spring Boot", "RabbitMQ", "OAuth2", "Keycloak", "Docker", "JUnit 5"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
+
   {
     "title": "IoT Wardrobe Management System",
     "imageSrc": "projects/project.png",
@@ -46,5 +39,29 @@
     "skills": ["Next.js", "Tailwind CSS", "Spring Boot", "Java", "Alpha Vantage API"],
     "demo": "https://www.example.com",
     "source": "https://github.com/devPach4545/Devstobot"
+  },
+  {
+    "title": "Automated Cloud Security Posture Management",
+    "imageSrc": "projects/project.png",
+    "description": "Developed an automated CSPM solution using AWS Lambda and Prowler, deployed via CI/CD pipeline with GitHub Actions and AWS SAM for version-controlled infrastructure. Enhanced continuous monitoring with automated SNS notifications for real-time security alerts.",
+    "skills": ["AWS Lambda", "EventBridge", "SNS", "Prowler", "AWS SAM", "GitHub Actions", "CI/CD"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/yourusername/cloud-security-posture-management"
+  },
+  {
+    "title": "BoardGameReview DevOpsified",
+    "imageSrc": "projects/project.png",
+    "description": "Architected a CI/CD pipeline for a full-stack review app, reducing build-to-deployment by 95% by containerizing with Docker and orchestrating on a Kubernetes cluster on EC2. Integrated SonarQube and Trivy for automated security scanning, identifying and remediating 72 production environment vulnerabilities.",
+    "skills": ["Kubernetes", "Docker", "Jenkins", "Amazon EC2", "Nexus", "SonarQube", "Trivy", "CI/CD"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/yourusername/boardgamereview-devops"
+  },
+  {
+    "title": "Serverless Feedback Form Application",
+    "imageSrc": "projects/project.png",
+    "description": "Built a cost-effective serverless feedback application using AWS Lambda, DynamoDB, and S3, with a multi-stage CI/CD pipeline in GitHub Actions. Implemented sentiment analysis with AWS Comprehend and SNS to automatically flag and notify about negative reviews for rapid customer response.",
+    "skills": ["AWS Lambda", "API Gateway", "S3", "DynamoDB", "SNS", "AWS Comprehend", "GitHub Actions", "CI/CD"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/yourusername/serverless-feedback-app"
   }
 ]

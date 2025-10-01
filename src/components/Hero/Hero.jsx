@@ -58,7 +58,7 @@ export const Hero = () => {
           </div>
         </h1>
         <p className={styles.description}>
-          I am a fourth year Computer Science student at UCSD. I am interested in Software Engineering, Machine Learning, and Data Science.
+          I am a first-year Grad student at UCSD, pursuing a Master's in Computer Science. I am interested in Software Engineering, especially scalable and distributed systems.
         </p>
         <a href="mailto:dhaivatpachchigar@gmail.com" className={styles.contactBtn}>
           Contact Me
